@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class Main {
+public class floatDouble {
 
     private static DecimalFormat df = new DecimalFormat("0.00");
 

@@ -1,5 +1,5 @@
-public class Main {
-
+public class byteShortInt {
+        // public class should be the same name as the name.java
     public static void main(String[] args) {
 
         int x = -2_147_483_648; // This number is called a literal, expressions include operators
