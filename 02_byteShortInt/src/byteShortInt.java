@@ -1,6 +1,11 @@
 public class byteShortInt {
         // public class should be the same name as the name.java
     public static void main(String[] args) {
+        // in Java, always initialise a variable before using
+        // assignment is optional
+        int a;
+        a = 2;
+        System.out.println(a);
 
         int x = -2_147_483_648; // This number is called a literal, expressions include operators
         // Data type int (2.147 B +-) Allocation on computer memory
