@@ -7,6 +7,12 @@ public class byteShortInt {
         // > abs(2147483648 )and intelliJ will give you a data error
         // width of 32 (2^32)
 
+        int intMaxVal = Integer.MAX_VALUE;
+        System.out.println(intMaxVal);
+        System.out.println(intMaxVal + 1);
+        // over/underflow can occur when you cycle through the limit of the type range
+        // Note that no error occurs SO BE CAREFUL
+
         System.out.printf("This is an integer: %d", x ); // triggered by souf
         // JDK ignores the underscores for lines as it knows it is for readability
         // formatted strings rule above
@@ -31,7 +37,7 @@ public class byteShortInt {
         long newLong = xByte / 2;
         // java automatically casts byte and short into integer after arithmetic
         // cast it back to byte to fit with defined variable yByte
-        // But Long automatically converts to long, no need to cast
+        // !!!But Long automatically converts to long, no need to cast!!!
 
         // Good to just work with ints when possible
 

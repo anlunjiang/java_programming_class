@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e89fe531-aa7f-4d76-8c84-cea88bb04cb0" name="Default Changelist" comment="" />
+    <list default="true" id="e89fe531-aa7f-4d76-8c84-cea88bb04cb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,27 +20,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_helloWorld/src/Hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="497">
               <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
@@ -51,8 +36,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java" />
         <option value="$PROJECT_DIR$/01_helloWorld/src/Hello.java" />
+        <option value="$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java" />
         <option value="$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java" />
       </list>
     </option>
@@ -86,17 +71,6 @@
             <path>
               <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_programming_class" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_programming_class" type="462c0819:PsiDirectoryNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_programming_class" type="462c0819:PsiDirectoryNode" />
-              <item name="01_helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
@@ -151,7 +125,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="36" width="963" height="1044" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -184,24 +157,35 @@
     <entry file="file://$PROJECT_DIR$/03_floatAndDouble/floatAndDouble.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java">
+    <entry file="file://$PROJECT_DIR$/01_helloWorld/src/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="152">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="456">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_helloWorld/src/Hello.java">
+    <entry file="file://$PROJECT_DIR$/06_Operators/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_CharAndBoolean/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Strings/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="-35" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
