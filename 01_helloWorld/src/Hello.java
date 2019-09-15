@@ -4,6 +4,13 @@ public class Hello {
         // main method is the entry point for any java code
         // void - method returns nothing
         System.out.println("Hello, World! This is my first java programme, Cool Beans");
+
+        // in Java, always initialise a variable before using
+        // assignment is optional
+        int a;
+        a = 2;
+        System.out.println(a);
+
         int x = 5 + 10;
         int y = 12;
         int z = 6;
