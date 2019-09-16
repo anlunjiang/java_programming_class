@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e89fe531-aa7f-4d76-8c84-cea88bb04cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_floatAndDouble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_floatAndDouble/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_CharAndBoolean/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_CharAndBoolean/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java">
+        <entry file="file://$PROJECT_DIR$/04_CharAndBoolean/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -49,6 +40,7 @@
         <option value="$PROJECT_DIR$/01_helloWorld/src/Hello.java" />
         <option value="$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java" />
         <option value="$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java" />
+        <option value="$PROJECT_DIR$/04_CharAndBoolean/src/Main.java" />
       </list>
     </option>
   </component>
@@ -63,7 +55,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,30 +65,26 @@
             <path>
               <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_programming_class" type="462c0819:PsiDirectoryNode" />
-              <item name="02_byteShortInt" type="462c0819:PsiDirectoryNode" />
+              <item name="04_CharAndBoolean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_programming_class" type="462c0819:PsiDirectoryNode" />
-              <item name="03_floatAndDouble" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_programming_class" type="462c0819:PsiDirectoryNode" />
-              <item name="03_floatAndDouble" type="462c0819:PsiDirectoryNode" />
+              <item name="04_CharAndBoolean" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/03_floatAndDouble" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_CharAndBoolean" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -114,6 +101,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="floatDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="floatDouble" />
+      <module name="java_programming_class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.floatDouble" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -137,17 +138,17 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" side_tool="true" visible="true" weight="0.13752665" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.5011111" side_tool="true" visible="true" weight="0.18230277" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.31111112" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20666666" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -156,6 +157,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.49888888" visible="true" weight="0.271855" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -172,9 +174,6 @@
     <entry file="file://$PROJECT_DIR$/06_Operators/src/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_CharAndBoolean/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/05_Strings/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35" />
@@ -182,15 +181,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state relative-caret-position="405">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="495">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_CharAndBoolean/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

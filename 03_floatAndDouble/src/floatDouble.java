@@ -26,7 +26,7 @@ public class floatDouble {
         // Notes 1 pounds is equal to 0.45359237 kilograms
 
         Scanner input = new Scanner(System.in);
-
+        // new creates a new object
         System.out.println("Enter a weight in pounds");
 
         double constant = 0.45359237d;
@@ -37,7 +37,7 @@ public class floatDouble {
         System.out.println("is equal to " +  df.format(kilos) + " Kilograms");
 
         // Scanner is the class that we take an instance of to produce a user input
-        // to round, we need to import BigDecimal and DecimalFormat
+        // to round, we need to import BigDecimal or DecimalFormat
 
     }
 }
