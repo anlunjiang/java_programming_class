@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e89fe531-aa7f-4d76-8c84-cea88bb04cb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/03_floatAndDouble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03_floatAndDouble/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_CharAndBoolean/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/04_CharAndBoolean/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e89fe531-aa7f-4d76-8c84-cea88bb04cb0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,17 +15,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04_CharAndBoolean/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +41,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,26 +53,18 @@
             <path>
               <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_programming_class" type="462c0819:PsiDirectoryNode" />
-              <item name="04_CharAndBoolean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_programming_class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_programming_class" type="462c0819:PsiDirectoryNode" />
-              <item name="04_CharAndBoolean" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="02_exp_stat_block_methods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_CharAndBoolean" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_exp_stat_block_methods/04_challenges" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -130,7 +110,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-3" y="36" width="1926" height="1044" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -138,8 +118,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.5011111" side_tool="true" visible="true" weight="0.18230277" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.5011111" side_tool="true" visible="true" weight="0.13879958" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -149,6 +128,7 @@
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -157,49 +137,17 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.49888888" visible="true" weight="0.271855" />
+      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.49888888" visible="true" weight="1.0" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_floatAndDouble/floatAndDouble.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_helloWorld/src/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06_Operators/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05_Strings/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_CharAndBoolean/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/03_floatAndDouble/floatAndDouble.iml" />
+    <entry file="file://$PROJECT_DIR$/01_helloWorld/src/Hello.java" />
+    <entry file="file://$PROJECT_DIR$/06_Operators/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/05_Strings/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/02_byteShortInt/src/byteShortInt.java" />
+    <entry file="file://$PROJECT_DIR$/03_floatAndDouble/src/floatDouble.java" />
+    <entry file="file://$PROJECT_DIR$/04_CharAndBoolean/src/Main.java" />
   </component>
   <component name="masterDetails">
     <states>
