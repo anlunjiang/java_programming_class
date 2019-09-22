@@ -6,14 +6,18 @@ public class Operators {
         int x = 4 + 4; // equals is an assignment operator
         System.out.printf("4 + 4 = %d", x);
 
-        x = x % 3;
-        System.out.println("\n" + x);
-        x ++; // x = x + 1
-        System.out.println("\n" + x);
-        x --; // x = x - 1
-        System.out.println("\n" + x);
-        x += 2; //x = x + 2
-        System.out.println("\n" + x);
+        int a = 3/4;
+        System.out.println("\n" + a);
+        // operators with ints will always round to the floor
+
+//        x = x % 3;
+//        System.out.println("\n" + x);
+//        x ++; // x = x + 1
+//        System.out.println("\n" + x);
+//        x --; // x = x - 1
+//        System.out.println("\n" + x);
+//        x += 2; //x = x + 2
+//        System.out.println("\n" + x);
         // Can use for other operations *=, +=, -= etc
     }
 }
