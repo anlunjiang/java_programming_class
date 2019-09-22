@@ -1,4 +1,6 @@
 public class BarkingDog {
 
-    public
+    public static void funct() {
+
+    }
 }
