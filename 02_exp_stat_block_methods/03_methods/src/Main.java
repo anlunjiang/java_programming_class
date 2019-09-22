@@ -14,7 +14,12 @@ public class Main {
         int bonus = 100;
 
         if (gameOver) {
-            calculateScore(score, levelCompleted, bonus);
+            int finalScore = calculateScore(score, levelCompleted, bonus);
+
+            System.out.printf("\nOverall you completed %d Levels" +
+                    "\nwith a bonus of %d per level" +
+                    "\nTotal Score of %d", levelCompleted, bonus, finalScore);
+
         } else {
             System.out.println("The game has not finished yet");
         }
@@ -22,10 +27,10 @@ public class Main {
     }
 
     // New method outside of main method but in the class
-    public static void calculateScore(int score, int levelCompleted, int bonus) {
+    public static int calculateScore(int score, int levelCompleted, int bonus) {
 
         int finalScore = score + (levelCompleted * bonus);
 
-        System.out.printf("Your final score was %d", finalScore);
+        return finalScore;
     }
 }
