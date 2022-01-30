@@ -1,7 +1,7 @@
 public class BarkingDog {
     /**
-     * Method that returns whether wakeup should be triggered
-     * Return true if dog barking 22-8 hours else false
+     * Method that returns whether wakeup should be triggered Return true if dog barking 22-8 hours
+     * else false
      *
      * @param barking
      */
@@ -9,11 +9,7 @@ public class BarkingDog {
         if ((!barking) || (hour < 0 || hour > 23)) {
             return false;
         }
-        if (hour < 8 || hour > 22) {
-            return true;
-        } else {
-            return false;
-        }
+        return hour < 8 || hour > 22;
     }
 
     public static void main(String[] args) {

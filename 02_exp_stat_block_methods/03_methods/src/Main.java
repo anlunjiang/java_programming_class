@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
     	double x = 100.34;
-    	rounded = Math.round(x);
+        long rounded = Math.round(x);
     	// rounded is rounded to the nearest int
 
         System.out.println("What was your score?\n");
