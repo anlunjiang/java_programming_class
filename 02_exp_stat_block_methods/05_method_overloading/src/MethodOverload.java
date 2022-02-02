@@ -1,4 +1,9 @@
 public class MethodOverload {
+
+    private static final String MY_CONSTANT = "my constant";
+    // You can create constants that can be accessed in the class
+    // Like in python convention is upper case
+
     /**
      * Method overloading allows us to create multiple methods of the same name with different implementations
      * The println method actually is an overloaded method for different dtypes
@@ -27,5 +32,7 @@ public class MethodOverload {
         // You need to create a unique method signature (the method name and param datatype)]
         // The method signature DOES NOT change with return
         int zero = calculateScore();
+
+        System.out.println(MY_CONSTANT);
     }
 }
