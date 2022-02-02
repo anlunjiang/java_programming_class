@@ -1,7 +1,7 @@
 import java.util.Scanner;
+import java.lang.Math;
 
-
-public class Main {
+public class HighScore {
 
     public static void main(String[] args) {
 
@@ -34,7 +34,6 @@ public class Main {
         } else if (playerScore > 100) {
             position = 3;
         }
-        Math.round()
         return position;
     }
 }
