@@ -1,0 +1,46 @@
+package challenges;
+
+public class NumDaysInMonth {
+
+    public static boolean isLeapYear(int year) {
+        if (!(year >= 1 && year <= 9999)) {
+            return false;
+        }
+
+        boolean divFourButNot100 = ((year % 4 == 0) && (year % 100 != 0));
+        boolean div400 = (year % 400 == 0);
+
+        return divFourButNot100 || div400;
+    }
+
+    public static int getDaysInMonth(int month, int year) {
+        boolean monthValidate = ((month < 1) || (month > 12));
+        boolean yearValidate = ((year < 1) || (year > 9999));
+
+        if (monthValidate || yearValidate) {
+            return -1;
+        }
+        switch(month) {
+            case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+                return 31;
+            case 2:
+                if (isLeapYear(year)) {
+                    return 29;
+                } else {
+                    return 28;
+                }
+            case 4: case 6: case 9: case 11:
+                return 30;
+            default:
+                return -1;
+        }
+    }
+
+    public static void main(String[] args) {
+        boolean ret = isLeapYear(2004);
+        System.out.println(ret);
+
+        int ret1 = getDaysInMonth(7, 2014);
+        System.out.println(ret1);
+    }
+}
