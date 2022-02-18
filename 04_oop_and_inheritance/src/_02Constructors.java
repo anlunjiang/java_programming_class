@@ -1,4 +1,4 @@
-
+import challenges.VipCustomer;
 
 public class _02Constructors {
     public static void main(String[] args) {
@@ -17,5 +17,8 @@ public class _02Constructors {
         _02ConstructorsBankAcc acc2 = new _02ConstructorsBankAcc();
         // empty constructor initialises default values
         System.out.println(acc2.getBal());
+
+        VipCustomer vipCust = new VipCustomer();
+        System.out.println(vipCust.getEmailAddress());
     }
 }

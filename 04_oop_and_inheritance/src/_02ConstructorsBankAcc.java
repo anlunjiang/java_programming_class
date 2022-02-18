@@ -21,7 +21,7 @@ public class _02ConstructorsBankAcc {
         // You can call the set methods = but a good rule of thumb for constructors is not to use them
         // And to set the fields directly
         // There are some scenarios where it won't be called if you use setters + it might be that
-        // the setter methods arent even made yet in the constructor
+        // the setter methods aren't even made yet in the constructor
     }
 
     /**
@@ -79,6 +79,7 @@ public class _02ConstructorsBankAcc {
     public void depositFunds(double amt) {
         this.bal += amt;
     }
+
     public void withdrawFunds(double amt) {
         double pendingRet = this.bal - amt;
         if (pendingRet < 0) {
