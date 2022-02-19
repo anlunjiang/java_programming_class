@@ -38,4 +38,30 @@ public class Dog extends Animal {
 
         // Good for putting extra functionality into methods
     }
+
+    @Override
+    public void move(int speed) {
+        System.out.println("Dog.move() called");
+        moveLegs(speed);
+        super.move(speed);
+    }
+
+    public void moveLegs(int speed) {
+        System.out.println("Dog.moveLegs() called moving at : " + speed);
+    }
+    public void walk() {
+        System.out.println("Dog.walk() called");
+        move(3);
+    }
+
+    public void run() {
+        System.out.println("Dog.run() called");
+        move(10);
+        // Notice i'm using the inherited instance of the move method instead of super.move()
+        // THIS is because if I override the move method I can still call it - instead of
+        // statically only referencing the base Animal class move method
+
+        // Hence when move() is called - overrided into it is a Dog characteristic of moveLegs
+        // However if move isnt found - it will by default look at your parent class for the move() method!
+    }
 }

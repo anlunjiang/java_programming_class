@@ -13,6 +13,7 @@ public class MethodOverload {
         return score * 1000;
     }
     // Method overloading means using the same method name but with different number of parameters
+    // But MUST return the same return type OR covariant return type (returns type childclass of original return type)
     public static int calculateScore(int score) {
         System.out.printf("Un-named player scored %s points", score);
         return score * 1000;

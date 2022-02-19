@@ -21,8 +21,9 @@ public class Animal {
         System.out.println("Animal.eat Call");
     }
 
-    public void move() {
+    public void move(int speed) {
         System.out.println("Animal.move Call");
+        System.out.println("Animal moving at speed " + speed);
     }
 
 
