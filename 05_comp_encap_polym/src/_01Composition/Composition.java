@@ -11,9 +11,13 @@ public class Composition {
 
         PC pc = new PC(theCase, monitor, mb);
         //You have now created a custom pc class with custom components - composition!
-        pc.getTheCase().pressPowerButton();
-        pc.getMonitor().drawPixelAt(1, 2, "Red");
+//        pc.getTheCase().pressPowerButton();
+//        pc.getMonitor().drawPixelAt(1, 2, "Red");
         // Using getters you can access methods by chaining them through the components
-        pc.getMotherboard().loadProgram("Windows 11 ");
+//        pc.getMotherboard().loadProgram("Windows 11 "); // Since the pc might not want you to have direct
+        // access to monitors or cases etc - you can abstract the functionality by makiing getters private
+        // and only allowing public operations the user should be able to do (e.g power up pc)
+
+        pc.powerUp();
     }
 }
