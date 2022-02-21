@@ -19,6 +19,9 @@ class Movie {
 class Jaws extends Movie {
     public Jaws() {
         super("Jaws");
+        System.out.println(getClass().getSimpleName()); // good way to get class name
+        System.out.println(
+                getClass().getName()); // good way to get abs class name including packages
     }
 
     @Override
@@ -71,16 +74,36 @@ public class Polymorphism {
      * Polymorphism allows actions to act differently based on the object that the action is being
      * performed on
      *
-     * plot method does different stuff as each movie has plot overrided
-     * If no override - then it'll back up to the super plot() method
+     * <p>plot method does different stuff as each movie has plot overrided If no override - then
+     * it'll back up to the super plot() method
      */
     public static void main(String[] args) {
         for (int i = 1; i < 11; i++) {
             Movie movie = randomMovie();
             System.out.println(
-                "Movie #: " + i + " Name: " + movie.getName() + "\n" + "Plot: " + movie.plot() + "\n"
-            );
+                    "Movie #: "
+                            + i
+                            + " Name: "
+                            + movie.getName()
+                            + "\n"
+                            + "Plot: "
+                            + movie.plot()
+                            + "\n");
         }
+        // inline class - a way to create a class on the fly and its methods
+        // Usually not recommended - but good for android click listeners
+        Movie inlineMovie =
+                new Movie("inlinedMovie") {
+                    @Override
+                    public String plot() {
+                        return super.plot();
+                    }
+
+                    @Override
+                    public String getName() {
+                        return super.getName();
+                    }
+                };
     }
 
     public static Movie randomMovie() {
